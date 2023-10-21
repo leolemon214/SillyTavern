@@ -7,6 +7,7 @@ import { SileroTtsProvider } from './silerotts.js'
 import { CoquiTtsProvider } from './coqui.js'
 import { SystemTtsProvider } from './system.js'
 import { NovelTtsProvider } from './novel.js'
+import { BertVITS2TtsProvider } from "./bert_vits2.js";
 import { power_user } from '../../power-user.js'
 import { rvcVoiceConversion } from "../rvc/index.js"
 export { talkingAnimation };
@@ -73,6 +74,7 @@ let ttsProviders = {
     Coqui: CoquiTtsProvider,
     Edge: EdgeTtsProvider,
     Novel: NovelTtsProvider,
+    BertVITS2: BertVITS2TtsProvider
 }
 let ttsProvider
 let ttsProviderName

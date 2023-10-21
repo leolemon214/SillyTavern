@@ -5,7 +5,8 @@
     "optional": [
         "silero-tts",
         "edge-tts",
-        "coqui-tts"
+        "coqui-tts",
+        "bert-vits2-tts"
     ],
     "js": "index.js",
     "css": "style.css",
